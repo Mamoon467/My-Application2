@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/flayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btnfirst"
+            android:layout_width="211dp"
+            android:layout_height="230dp"
+            android:onClick="onClick"
+            android:layout_gravity="clip_vertical"
+            android:background="#FF9800"
+            android:text="First"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/btnway"
+            android:layout_width="211dp"
+            android:layout_height="230dp"
+            android:layout_gravity="clip_vertical"
+            android:layout_weight="1"
+            android:background="#03A9F4"
+            android:text="way"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/seclayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flayout"
+        android:layout_margin="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btnsecond"
+            android:layout_width="211dp"
+            android:layout_height="230dp"
+            android:layout_gravity="clip_vertical"
+            android:background="#ADE91E63"
+            android:text="Second"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/btnway2"
+            android:layout_height="230dp"
+            android:layout_gravity="clip_vertical"
+            android:layout_weight="1"
+            android:background="#FFC107"
+            android:text="way"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            tools:ignore="RtlCompat"
+            android:layout_width="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/thirdlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seclayout"
+        android:layout_margin="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btnthird"
+            android:layout_width="211dp"
+            android:layout_height="230dp"
+            android:layout_gravity="clip_vertical"
+            android:background="#4CAF50"
+            android:text="Third"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/btnway3"
+            android:layout_width="211dp"
+            android:layout_height="230dp"
+            android:layout_gravity="clip_vertical"
+            android:layout_weight="1"
+            android:background="#B5F44336"
+            android:text="way"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            tools:ignore="RtlCompat" />
+    </LinearLayout>
+
+</RelativeLayout>
